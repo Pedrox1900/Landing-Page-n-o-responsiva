@@ -1,0 +1,280 @@
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&family=Mulish:wght@700&family=Roboto:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+  background-color: #0098af;
+}
+
+header {
+  margin-top: 5vmin;
+  display: flex;
+  display: block;
+  justify-content: space-around;
+  
+}
+.ha {
+    color: rgb(68, 68, 68);
+}
+
+    
+
+nav {
+    padding: 10px;    
+}
+nav i {
+    padding: 0 1vh;
+}
+#wifi-icon {
+    height: 4vmin;
+}
+#logo-eldorado {
+    height: 15vmin;
+}
+buttons {
+    margin: 3vmin 0;
+}
+.button-header {
+  background-color: #f8d400; /* Green */
+  border: none;
+  color: #0e355b;
+  padding: 1.5vmin;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  
+    
+}
+.container-header {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+
+
+.container-header2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+
+.container-header2 .buttons {
+  margin-left: 50vmin;
+}
+
+.container-header2 .buttons .button-header {
+  margin-left: 10px;
+  
+}
+
+
+                     /*CARDS*/
+#section-cards {
+  
+}
+
+#section-cards h1{
+  text-align: center;
+  font-size: 40px;
+  color: #0e355b;
+  
+}
+
+
+
+
+#section-cards #subtitle-cards{
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 20px;
+  font-weight: 700;
+  color: #0e355b;
+}
+
+#section-cards #cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  
+}
+
+#section-cards #cards h2{
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+ 
+}
+
+#section-cards #cards p{
+  padding: 1px;
+  font-size: 20px;
+  text-align: start;
+  color:#088c85;
+}
+
+#section-cards #cards i{
+  padding-right: 6px;
+}
+
+#section-cards #cards .subtitle{
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+#section-cards #cards button{
+  display: flex;
+  margin: auto;
+  width: 100%;
+  padding: 15px;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: #f8d400;
+  font-size: 15px;
+  font-family: 'Mulish', sans-serif;
+}
+
+
+
+#section-cards #cards .preco{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  color: rgb(70, 177, 157);
+}
+
+#section-cards #cards sup{
+  font-size: 25px;
+}
+
+#section-cards #cards .card-1,.card-2,.card-3,.card-4{
+  
+  width: 100%;
+  margin: 40px 20px;
+  padding: 50px 20px;
+  border-radius: 30px;
+  background-color: #0e355b;
+}
+
+#section-cards #cards h2{
+  color: rgb(70, 177, 157);
+}
+
+
+                      /*FEATURES*/
+
+.section-features #features {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8d400;
+  
+}
+.section-features #features h2{
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+  flex-wrap: nowrap;
+  color: #0e355b;
+}
+
+.section-features #features p{
+  
+  font-size: 1.1em;
+}
+
+.section-features #features i{
+  display: flex;
+  font-size: 23px;
+  padding-right: 10px;
+  
+}
+
+.section-features #features .ft-1,.ft-2,.ft-3,.ft-4,.ft-5,.ft-6{
+  padding: 20px;
+  
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0098af;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer p{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 15px;
+  color: #0e355b;
+}
+
+footer .end p{
+  font-size: 20px;
+  font-family: 'Gothic A1', sans-serif;
+  color: #0e355b;
+}
+
+footer .icons{
+  display: flex;
+  gap: 20px;
+  padding: 15px 0px 15px 0px;
+  
+}
+footer button {
+  border-radius: 20%;
+  background: none;
+  color: #fff;
+}
+
+footer #facebook i {
+  color:black;
+}
+footer #instagram i{
+  color:black;
+}
+footer #whatsapp i {
+  color: black;
+}
+
+footer .contact{
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+footer .contact i{
+  padding-right: 10px;
+}
+
+footer .img-logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+}
+
+footer .img-logo img {
+  width: 100px;
+ 
+}
+
+
+
